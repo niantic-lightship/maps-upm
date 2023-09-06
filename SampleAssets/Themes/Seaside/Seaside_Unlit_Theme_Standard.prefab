@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3272849862393525681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 927630385647433643, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b48e7e30089284f9fa3e3eac2aa2ff23, type: 2}
+    - target: {fileID: 1327063926672948728, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fddceb1b8ec4349fdabcfc5edfd8ae02, type: 2}
+    - target: {fileID: 1611735083733470669, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f457411f45f4f2a834fe79d6d885c2, type: 2}
+    - target: {fileID: 1655971673958907945, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f457411f45f4f2a834fe79d6d885c2, type: 2}
+    - target: {fileID: 2042459294223664010, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2912dfd5c9b9414dbe56e86a991d47f, type: 2}
+    - target: {fileID: 2345192730605552772, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _themeName
+      value: Seaside
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345192730605552772, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _skyboxColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345192730605552772, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _skyboxColor.b
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345192730605552772, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _skyboxColor.g
+      value: 0.91015667
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345192730605552772, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _skyboxColor.r
+      value: 0.876246
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390146466171986028, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: faf8a1dd82f4a4306b9bb003bc2753a5, type: 2}
+    - target: {fileID: 5696892371309873225, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: m_Name
+      value: Seaside_Unlit_Theme_Standard
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737022542264513315, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ef6913e79b4f490991f0110a57fbed7, type: 2}
+    - target: {fileID: 5927081514552440640, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 600a8418f52d84d69862fc9321bccfd8, type: 2}
+    - target: {fileID: 6853714802965747643, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 89a632748416844cc99af156c2776492, type: 2}
+    - target: {fileID: 6880524246064127782, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b48e7e30089284f9fa3e3eac2aa2ff23, type: 2}
+    - target: {fileID: 7646830611908440605, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd4ba0447af384d2dbfdba95b9838596, type: 2}
+    - target: {fileID: 9033748663264107176, guid: cd277179f7659423ea870564d2ff9e75,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58c379660435c42918fc214025ddee6e, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd277179f7659423ea870564d2ff9e75, type: 3}

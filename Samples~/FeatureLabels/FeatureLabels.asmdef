@@ -1,0 +1,24 @@
+{
+    "name": "Niantic.Lightship.Maps.Samples.FeatureLabels",
+    "rootNamespace": "Niantic.Lightship.Maps.Samples.FeatureLabels",
+    "references": [
+        "Niantic.Lightship.Maps",
+        "Niantic.Lightship.Maps.Samples.Common",
+        "Niantic.Lightship.Maps.SampleAssets",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Lightship.Maps.Core.dll",
+        "Niantic.Lightship.Maps.Linq.dll",
+        "Niantic.Lightship.Maps.Async.dll",
+        "Niantic.Platform.Debugging.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

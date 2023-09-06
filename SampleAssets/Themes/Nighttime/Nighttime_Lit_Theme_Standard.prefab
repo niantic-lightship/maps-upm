@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8734560670035210982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 872351128827978787, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 181a6da337c3b44208a066dca483b28e, type: 2}
+    - target: {fileID: 2014321496302542454, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: m_Name
+      value: Nighttime_Lit_Theme_Standard
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597831524329091911, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ffa137e1d3f045af9498f3decbef9f7, type: 2}
+    - target: {fileID: 3041427745656451985, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e476e8011ac09411ebcc9e4ea7f0b57a, type: 2}
+    - target: {fileID: 4112410522596745197, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88cc12fc77aab4a9d8cdc764a66dfa6a, type: 2}
+    - target: {fileID: 4897729582537444729, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e393dec9b40ef41c78d2933d8c6ee3c4, type: 2}
+    - target: {fileID: 5849197420214062354, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f0d2e3e28f3334353a6610e91666f315, type: 2}
+    - target: {fileID: 5894678799364533495, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a536e3882f8834dba916333772fadbf7, type: 2}
+    - target: {fileID: 6038987808376743391, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6323b21d5cf68482dbf0713d1b647a55, type: 2}
+    - target: {fileID: 6047685272274578899, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _themeName
+      value: Nighttime
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047685272274578899, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _skyboxColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047685272274578899, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _skyboxColor.b
+      value: 0.20754719
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047685272274578899, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _skyboxColor.g
+      value: 0.17328231
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047685272274578899, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _skyboxColor.r
+      value: 0.19022885
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718574260625312673, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5391ba8edc5214cf69e1476c69e86685, type: 2}
+    - target: {fileID: 8015588012944922056, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0272d4183ecd24e88a9b0b87b792215a, type: 2}
+    - target: {fileID: 8172956632916713266, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6323b21d5cf68482dbf0713d1b647a55, type: 2}
+    - target: {fileID: 8430402895154097390, guid: 7b225ba51ee644b78aa995fa9fb357e4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f0d2e3e28f3334353a6610e91666f315, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b225ba51ee644b78aa995fa9fb357e4, type: 3}

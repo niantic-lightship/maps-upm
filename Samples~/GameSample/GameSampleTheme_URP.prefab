@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3292306154953338074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 949289594789278471}
+  - component: {fileID: 8778733998088439225}
+  m_Layer: 0
+  m_Name: StoneFeatureSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &949289594789278471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292306154953338074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9136241120104751785}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8778733998088439225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292306154953338074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840ac0a6e16384f00adfe9093965e631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _undefinedFeatures: 
+  _boundaryFeatures: 
+  _structureFeatures: 
+  _landUseFeatures: 22000000
+  _placesFeatures: 
+  _linearFeatures: 
+  _transitFeatures: 
+  _waterFeatures: 
+  _builderName: Stone Resource
+  _minLOD: 0
+  _maxLOD: 17
+  _zOffset: 0
+  _mapLayer: 4
+  _features: 22000000
+  _prefab: {fileID: 2526952447558899299, guid: e0ed27e1e7f674e8ea408ac9ab4f04c2, type: 3}
+  _resourceType: 2
+--- !u!1 &5793337806014307402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1606767972883850119}
+  - component: {fileID: 7072893733499953441}
+  m_Layer: 0
+  m_Name: ParkFeatureSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1606767972883850119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793337806014307402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9136241120104751785}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7072893733499953441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793337806014307402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840ac0a6e16384f00adfe9093965e631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _undefinedFeatures: 
+  _boundaryFeatures: 
+  _structureFeatures: 
+  _landUseFeatures: 21000000
+  _placesFeatures: 
+  _linearFeatures: 
+  _transitFeatures: 
+  _waterFeatures: 
+  _builderName: Wood Resource
+  _minLOD: 0
+  _maxLOD: 17
+  _zOffset: 0
+  _mapLayer: 4
+  _features: 21000000
+  _prefab: {fileID: 3186435041842479553, guid: 279a1c9c63ba8422e99a7b87c38ae2ac, type: 3}
+  _resourceType: 0
+--- !u!1001 &4960832596096512316
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4095237734220021291, guid: 02d037a848d0b47a29da0b0a530378dc,
+        type: 3}
+      propertyPath: m_Name
+      value: GameSampleTheme
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128093570171653518, guid: 02d037a848d0b47a29da0b0a530378dc,
+        type: 3}
+      propertyPath: _themeName
+      value: GameSample
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128093570171653518, guid: 02d037a848d0b47a29da0b0a530378dc,
+        type: 3}
+      propertyPath: _builders.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128093570171653518, guid: 02d037a848d0b47a29da0b0a530378dc,
+        type: 3}
+      propertyPath: _builders.Array.data[12]
+      value: 
+      objectReference: {fileID: 7072893733499953441}
+    - target: {fileID: 8128093570171653518, guid: 02d037a848d0b47a29da0b0a530378dc,
+        type: 3}
+      propertyPath: _builders.Array.data[13]
+      value: 
+      objectReference: {fileID: 8778733998088439225}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02d037a848d0b47a29da0b0a530378dc, type: 3}
+--- !u!4 &9136241120104751785 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4184433473574654869, guid: 02d037a848d0b47a29da0b0a530378dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4960832596096512316}
+  m_PrefabAsset: {fileID: 0}

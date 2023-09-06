@@ -1,0 +1,447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &47213090247412252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3519067290654830603}
+  - component: {fileID: 7338598877959136384}
+  m_Layer: 0
+  m_Name: MinorRoadLabelLanguageBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3519067290654830603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47213090247412252}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3733367317725043809}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7338598877959136384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47213090247412252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e60401ff0d542a38fdc27735f1ee37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _undefinedFeatures: 
+  _boundaryFeatures: 
+  _structureFeatures: 
+  _landUseFeatures: 
+  _placesFeatures: 
+  _linearFeatures: 1e000000
+  _transitFeatures: 
+  _waterFeatures: 
+  _builderName: Minor Road Label
+  _minLOD: 16
+  _maxLOD: 17
+  _zOffset: 0.005
+  _mapLayer: 7
+  _features: 1e000000
+  _labelPrefab: {fileID: 7134792197433845277, guid: c27ca06c2b9884222a881b74e7cbf425,
+    type: 3}
+  _maxLabelStringsPerTile: 1
+  _scaleWithMapRadius: 1
+  _scaleFactor: 0.0055
+  _minimumScale: 2.75
+  _maximumScale: Infinity
+  _alignWithLinearFeatures: 1
+  _includedFeatures: 4
+--- !u!1 &139912760425625934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2727001293007579973}
+  - component: {fileID: 4776170318275407959}
+  m_Layer: 0
+  m_Name: MajorRoadLabelLanguageBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2727001293007579973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139912760425625934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3733367317725043809}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4776170318275407959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139912760425625934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e60401ff0d542a38fdc27735f1ee37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _undefinedFeatures: 
+  _boundaryFeatures: 
+  _structureFeatures: 
+  _landUseFeatures: 
+  _placesFeatures: 
+  _linearFeatures: 1c000000
+  _transitFeatures: 
+  _waterFeatures: 
+  _builderName: Major Road Label
+  _minLOD: 16
+  _maxLOD: 17
+  _zOffset: 0.0055
+  _mapLayer: 7
+  _features: 1c000000
+  _labelPrefab: {fileID: 7134792197433845277, guid: 4f3c18be594ac4a8a8f9354533553756,
+    type: 3}
+  _maxLabelStringsPerTile: 1
+  _scaleWithMapRadius: 1
+  _scaleFactor: 0.0066
+  _minimumScale: 3.3
+  _maximumScale: Infinity
+  _alignWithLinearFeatures: 1
+  _includedFeatures: 4
+--- !u!1 &3520429075497066112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4346489041002360305}
+  - component: {fileID: 7331016248870142918}
+  m_Layer: 0
+  m_Name: CityLabelLanguageBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4346489041002360305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3520429075497066112}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3733367317725043809}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7331016248870142918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3520429075497066112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e60401ff0d542a38fdc27735f1ee37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _undefinedFeatures: 
+  _boundaryFeatures: 
+  _structureFeatures: 
+  _landUseFeatures: 
+  _placesFeatures: 42000000
+  _linearFeatures: 
+  _transitFeatures: 
+  _waterFeatures: 
+  _builderName: City Label
+  _minLOD: 7
+  _maxLOD: 17
+  _zOffset: 0.0065
+  _mapLayer: 5
+  _features: 42000000
+  _labelPrefab: {fileID: 2582231384817369947, guid: 2db5fcf57aa804e33b0f96c14f4e6897,
+    type: 3}
+  _maxLabelStringsPerTile: 1
+  _scaleWithMapRadius: 1
+  _scaleFactor: 0.02
+  _minimumScale: 20
+  _maximumScale: 2000
+  _alignWithLinearFeatures: 1
+  _includedFeatures: 15
+--- !u!1 &7980575678500677127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8760766349430442451}
+  - component: {fileID: 7119902168602147980}
+  m_Layer: 0
+  m_Name: CountryLabelLanguageBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8760766349430442451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980575678500677127}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3733367317725043809}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7119902168602147980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980575678500677127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e60401ff0d542a38fdc27735f1ee37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _undefinedFeatures: 
+  _boundaryFeatures: 
+  _structureFeatures: 
+  _landUseFeatures: 
+  _placesFeatures: 40000000
+  _linearFeatures: 
+  _transitFeatures: 
+  _waterFeatures: 
+  _builderName: Country Label
+  _minLOD: 0
+  _maxLOD: 9
+  _zOffset: 0.007
+  _mapLayer: 5
+  _features: 40000000
+  _labelPrefab: {fileID: 4006219682941571480, guid: eb77813906a3b4ea2a296a42242b5851,
+    type: 3}
+  _maxLabelStringsPerTile: 1
+  _scaleWithMapRadius: 1
+  _scaleFactor: 0.01
+  _minimumScale: 2000
+  _maximumScale: 100000
+  _alignWithLinearFeatures: 1
+  _includedFeatures: 15
+--- !u!1 &8154567174722726275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691440426690928228}
+  - component: {fileID: 1771526279367376867}
+  m_Layer: 0
+  m_Name: HighwayLabelLanguageBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1691440426690928228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8154567174722726275}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3733367317725043809}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1771526279367376867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8154567174722726275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e60401ff0d542a38fdc27735f1ee37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _undefinedFeatures: 
+  _boundaryFeatures: 
+  _structureFeatures: 
+  _landUseFeatures: 
+  _placesFeatures: 
+  _linearFeatures: 15000000
+  _transitFeatures: 
+  _waterFeatures: 
+  _builderName: Highway Label
+  _minLOD: 0
+  _maxLOD: 17
+  _zOffset: 0.006
+  _mapLayer: 7
+  _features: 15000000
+  _labelPrefab: {fileID: 6682375749339843485, guid: ac32b70bae5f945f285b66b6f933eea6,
+    type: 3}
+  _maxLabelStringsPerTile: 1
+  _scaleWithMapRadius: 1
+  _scaleFactor: 0.01
+  _minimumScale: 3
+  _maximumScale: Infinity
+  _alignWithLinearFeatures: 1
+  _includedFeatures: 4
+--- !u!1001 &2963374785172995318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1793393600098031457, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_Name
+      value: FeatureLabelsLanguageTheme_Standard
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8604066389102238636, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: _themeName
+      value: FeatureLabelsLanguage
+      objectReference: {fileID: 0}
+    - target: {fileID: 8604066389102238636, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: _builders.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8604066389102238636, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: _builders.Array.data[12]
+      value: 
+      objectReference: {fileID: 7331016248870142918}
+    - target: {fileID: 8604066389102238636, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: _builders.Array.data[13]
+      value: 
+      objectReference: {fileID: 7119902168602147980}
+    - target: {fileID: 8604066389102238636, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: _builders.Array.data[14]
+      value: 
+      objectReference: {fileID: 1771526279367376867}
+    - target: {fileID: 8604066389102238636, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: _builders.Array.data[15]
+      value: 
+      objectReference: {fileID: 4776170318275407959}
+    - target: {fileID: 8604066389102238636, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+        type: 3}
+      propertyPath: _builders.Array.data[16]
+      value: 
+      objectReference: {fileID: 7338598877959136384}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c5b1a9382cae4104848e9d1f3d39ae5, type: 3}
+--- !u!4 &3733367317725043809 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1940928710900719767, guid: 8c5b1a9382cae4104848e9d1f3d39ae5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2963374785172995318}
+  m_PrefabAsset: {fileID: 0}

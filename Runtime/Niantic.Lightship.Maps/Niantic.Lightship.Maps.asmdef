@@ -1,0 +1,25 @@
+{
+    "name": "Niantic.Lightship.Maps",
+    "rootNamespace": "Niantic.Lightship.Maps",
+    "references": [
+        "Unity.TextMeshPro",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Burst"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Lightship.Maps.Core.dll",
+        "Niantic.Lightship.Maps.Async.dll",
+        "Niantic.Lightship.Maps.Linq.dll",
+        "Niantic.Platform.Debugging.dll",
+        "Google.Protobuf.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

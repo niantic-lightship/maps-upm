@@ -1,0 +1,22 @@
+{
+    "name": "Niantic.Lightship.Maps.SampleAssets",
+    "rootNamespace": "Niantic.Lightship.Maps.SampleAssets",
+    "references": [
+        "Niantic.Lightship.Maps",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Lightship.Maps.Core.dll",
+        "Niantic.Lightship.Maps.Linq.dll",
+        "Niantic.Lightship.Maps.Async.dll",
+        "Niantic.Platform.Debugging.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

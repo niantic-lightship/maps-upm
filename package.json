@@ -1,0 +1,62 @@
+{
+  "name": "com.niantic.lightship.maps",
+  "version": "0.4.0",
+  "displayName": "Lightship Maps SDK",
+  "description": "This library is used to stream and render Niantic MapTiles. Various sample scenes, starter prefabs, and sample code are also provided.",
+  "unity": "2021.3",
+  "documentationUrl": "https://lightship.dev/docs/maps",
+  "changelogUrl": "https://lightship.dev/docs/maps/content/release_notes/index.html",
+  "licensesUrl": "https://lightship.dev/terms",
+  "hideInEditor": false,
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.collections": "1.4.0",
+    "com.unity.mathematics": "1.2.6"
+  },
+  "author": {
+    "name": "Niantic, Inc.",
+    "url": "https://lightship.dev/"
+  },
+  "samples": [
+    {
+      "displayName": "Top-Down Camera Sample",
+      "description": "A sample demonstrating a top-down view of the map using an orthographic camera.",
+      "path": "Samples~/OrthographicCamera"
+    },
+    {
+      "displayName": "Third-Person Camera Sample",
+      "description": "A sample demonstrating a third-person camera that follows and orbits around the player or other focused object.",
+      "path": "Samples~/OrbitCamera"
+    },
+    {
+      "displayName": "Map-Based Resource Game",
+      "description": "A simple resource game using Lightship Maps. The game shows the use of Map Feature data to place objects for gameplay, as well as dynamically placing player-created objects on the map.",
+      "path": "Samples~/GameSample"
+    },
+    {
+      "displayName": "Render-to-Texture Sample",
+      "description": "A sample demonstrating how to render a map into a render texture using a secondary camera. Useful for applications with embedded maps or mini-maps.",
+      "path": "Samples~/RenderToTexture"
+    },
+    {
+      "displayName": "Custom Map Layers Sample",
+      "description": "A sample demonstrating custom MapLayers with components that draw polygons and lines on the map.",
+      "path": "Samples~/CustomMapLayers"
+    },
+    {
+      "displayName": "Map Theming Sample",
+      "description": "A sample showing the use of multiple visual themes that can be changed at runtime.",
+      "path": "Samples~/MapThemes"
+    },
+    {
+      "displayName": "Labels Sample",
+      "description": "A sample that demonstrates the use of MapTile feature labels.  NOTE: The labeling system is an experimental feature.  Please see the online documentation for details.",
+      "path": "Samples~/FeatureLabels"
+    },
+    {
+      "displayName": "Multi-Language Labels Sample",
+      "description": "A sample that demonstrates the use of MapTile feature labels in different languages and scripts.  NOTE: The labeling system is an experimental feature.  Please see the online documentation for details.",
+      "path": "Samples~/FeatureLabelsLanguage"
+    }
+  ]
+}

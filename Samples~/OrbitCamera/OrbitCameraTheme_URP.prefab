@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4252573644317515488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4095237734220021291, guid: 02d037a848d0b47a29da0b0a530378dc,
+        type: 3}
+      propertyPath: m_Name
+      value: OrbitCameraTheme
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128093570171653518, guid: 02d037a848d0b47a29da0b0a530378dc,
+        type: 3}
+      propertyPath: _themeName
+      value: OrbitCamera
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02d037a848d0b47a29da0b0a530378dc, type: 3}

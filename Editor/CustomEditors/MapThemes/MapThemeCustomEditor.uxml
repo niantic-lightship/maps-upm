@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement>
+        <ui:VisualElement name="_defaultInspector" />
+        <ui:VisualElement name="Spacer" style="flex-basis: auto; height: 16px;" />
+        <ui:Label text="Builders" display-tooltip-when-elided="true" name="_buildersLabel" />
+        <ui:VisualElement style="flex-direction: row; justify-content: flex-start; flex-grow: 1; flex-shrink: 0;">
+            <ui:DropdownField label="Select a builder" index="0" choices="System.Collections.Generic.List`1[System.String]" name="_builderSelector" style="flex-grow: 1; flex-wrap: wrap; flex-shrink: 1;" />
+            <ui:Button text="+" display-tooltip-when-elided="true" tooltip="Add new builder to theme" name="_addBuilderButton" style="flex-grow: 0; flex-direction: row; flex-wrap: nowrap; justify-content: center; height: auto; flex-basis: auto;" />
+        </ui:VisualElement>
+        <ui:Foldout text="Foldout" name="_builderFoldout" value="false">
+            <ui:IMGUIContainer name="_builderInspector" />
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

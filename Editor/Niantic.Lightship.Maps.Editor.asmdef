@@ -1,0 +1,26 @@
+{
+    "name": "Niantic.Lightship.Maps.Editor",
+    "rootNamespace": "Niantic.Lightship.Maps.Editor",
+    "references": [
+        "Niantic.Lightship.Maps",
+        "Niantic.Lightship.Maps.SampleAssets",
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Lightship.Maps.Core.dll",
+        "Niantic.Lightship.Maps.Async.dll",
+        "Niantic.Lightship.Maps.Linq.dll",
+        "Niantic.Platform.Debugging.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
