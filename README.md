@@ -5,7 +5,7 @@ maps-upm
 The Maps UPM is the Unity package needed in order to use Maps features from Lightship ARDK in your Unity application. This file can be be brought into your project by using the Unity Package Manager. To use Lightship Maps for Unity, you must download the Lightship Maps SDK Unity package and save it to your computer. The Unity package comes as a compressed tarball that you can add to a Unity project directly via the Package Manager. Detailed steps to install the Maps UPM can be found in our [developer documentation for Installing the Lightship Maps SDK](https://lightship.dev/docs/maps/install/). These steps are also noted below:
 
 ### Installing the Lightship Maps SDK with a URL
-1. In your Unity project open the **Package Manager** by selection **Window > Package Manager**. 
+1. In your Unity project open the **Package Manager** by selecting **Window > Package Manager**. 
 	- From the plus menu on the Package Manager tab, select **Add package from git URL...**
 	- Enter `https://github.com/niantic-lightship/maps-upm.git`. 
 	- Click **Yes** to activate the new Input System Package for AR Foundation 5.0 (if prompted)
