@@ -13,7 +13,7 @@ The Maps UPM is the Unity package needed in order to use Maps features from Ligh
 ### Installing the Lightship Maps SDK from Tarball
 1. Download the plugin packages (`.tgz`) from the latest release
 	- [maps-upm](https://github.com/niantic-lightship/maps-upm/releases/latest)
-2. In your Unity project open the **Package Manager** by selection **Window > Package Manager**. 
+2. In your Unity project open the **Package Manager** by selecting **Window > Package Manager**. 
 	- From the plus menu on the Package Manager tab, select **Add package from tarball...**
 	- Navigate to where you downloaded the WPS UPM, select the `.tgz` file you downloaded, and press **Open**. This will install the package in your project's **Packages** folder as the **Niantic Lightship Maps SDK** folder. 
 	- Click **Yes** to activate the new Input System Package for AR Foundation 5.0 (if prompted). 
